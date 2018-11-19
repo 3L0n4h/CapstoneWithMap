@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Home"
+            android:icon="@mipmap/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_Map"
+            android:icon="@mipmap/location"
+            android:title="Map" />
+        <item
+            android:id="@+id/nav_Help"
+            android:icon="@mipmap/question"
+            android:title="Help" />
+        <item
+            android:id="@+id/nav_Settings"
+            android:icon="@mipmap/settings"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_Aboutt"
+            android:icon="@mipmap/abouttip"
+            android:title="About TIP" />
+        <item
+            android:id="@+id/nav_Ojt"
+            android:icon="@mipmap/aboutojtt"
+            android:title="OJT Program" />
+
+        <item
+            android:icon="@mipmap/logout"
+            android:title="SignOut" />
+
+    </group>
+
+</menu>
